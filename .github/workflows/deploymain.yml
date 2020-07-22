@@ -37,4 +37,4 @@ jobs:
     
     # Deploy Surge
     - name: Deploy React App to Surge
-      run: surge ./build yassa2-reactnewyarn.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build yassa3-reactnewyarn.surge.sh --token ${{ secrets.SURGE_TOKEN }}

@@ -1,0 +1,22 @@
+.myname{
+    background-color:yellow;
+    color:#52092a;
+    text-align:center;
+    opacity:0.6;
+}
+.myname:hover{
+    opacity:1;
+}
+h2{
+    text-align:center;
+    background-color:aqua;
+}
+h2:hover{
+    background-color:blue;
+}
+body{
+    background-color:#1de07f;
+}
+body:hover{
+    background-color:#6387d6;   
+}

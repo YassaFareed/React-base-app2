@@ -1,26 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Hello from './Hello';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(props) {
+  return <div>
+    <h2>Sum is {props.sum} and i am inside div</h2>
+    <br/>
+    <h3> Hover to see effect</h3>
+   
+
+    <br/>
+    <Hello firstname={props.name}></Hello>
+  </div>
+  
 }
 
 export default App;
